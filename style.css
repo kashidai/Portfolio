@@ -1,0 +1,281 @@
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+
+
+
+/* -----------------------------Top-page---------------------------------- */
+
+h1{
+    color: #ffff;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+p{
+    color: #ffff;
+    font-size: 50px;
+text-align: center;
+}
+
+
+header img{
+    width:  80px;
+    height: 80px;
+    cursor: pointer;
+    cursor: hand;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+header{
+    top:0;
+    position: fixed;
+    background-color: transparent;
+    z-index: 5;
+
+}
+
+
+
+.top-title{
+    background-image: url(./images/IMG_5842-2-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+
+.tittle-container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+}
+
+.except-tittle{
+padding-top: 160px;
+padding-bottom: 200px;
+}
+
+h2{
+    font-size: 110px;
+    color: #ffff;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+h2:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 180px;
+    display: inline-block;
+    width: 130px;
+    height: 10px; /*下線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%); /*位置調整*/
+    background-color: #666666; /*下線の色*/
+  }
+
+}
+
+
+.top-title h1{
+
+}
+
+
+.work{
+
+    background-color: red;
+    padding-left: 50px;
+    padding-right:50px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+.all-work img{
+
+    width:100%;
+    vertical-align: middle;
+    margin-bottom: 50px
+}
+
+
+.about{
+
+    background-color: skyblue;
+    text-align: center;
+
+}
+
+.About-image{
+
+}
+
+.detail{
+    width: 80%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    text-align: left;
+}
+
+.about{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.about img{
+object-fit: contain;
+width:100%;
+
+}
+
+.contact{
+
+    background-color: green;
+    text-align: center;
+}
+
+.contact-botton{
+    width: 50%;
+    font-size:50px;
+padding-bottom: 150px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.contact-sentence{
+    padding-bottom: 150px;
+    text-align: left;
+}
+
+.send {
+
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+}
+
+.send:hover {
+  background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+footer{
+
+    background-color: black;
+    padding: 100px 0;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+li{
+    list-style: none;
+}
+
+.items{
+text-align: center;
+
+}
+
+.sns-item{
+    font-size: 80px;
+    color: #ffff;
+
+}
+
+.Copyright{
+    font-size: 10px;
+    padding-top: 80px;
+}
+
+
+@media (min-width : 700px){
+    h1{
+        font-size: 100px;
+    }
+}
+
+
+
+
+
+
+/* ----------------------------------work1 ---------------------------------*/
+
+.work-top{
+
+    background-image: url(./images/photo-1548174753-897b449b097e.jpg);
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+.work-tittle{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+}
+
+.summary{
+    background-color: skyblue;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.summary p{
+text-align: left;
+
+}
+
+.work-img{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+
+.work-img img{
+    margin-bottom: 50px;
+}
