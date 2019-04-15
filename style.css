@@ -55,6 +55,8 @@ header{
 
 
 
+
+
 .top-title{
     background-image: url(./images/IMG_5842-2-2.jpg);
     background-size: cover;
@@ -181,7 +183,7 @@ width:100%;
 }
 
 .contact-botton{
-    width: 50%;
+    width: 70%;
     font-size:15px;
 padding-bottom: 60px;
     margin: 0 auto;
@@ -198,12 +200,12 @@ padding-bottom: 60px;
 .send {
 
     display: block;
-    width: 280px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 1em 1.5em;
-    background-color: #0adebd;
-    border: 2px solid #0adebd;
+    background-color: #00ffff;
+    border: 2px solid #00ffff;
     text-align: center;
     color: #333;
     letter-spacing: 0.05em;
@@ -355,6 +357,7 @@ justify-content: center;
     background-color: #ffff;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 100px;
 }
 
 .summary p{
