@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dai-Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/portfolio-logo.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="./hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 
 
 </head>
@@ -21,12 +22,39 @@
         <a href="index.html"><img src="./images/portfolio-logo.png" alt="logo"></a>
         </div>
 
-
-
-
+        <nav class="NavMenu">
+        　<ul>
+        　　<li><a href="#">Menu1</a></li>
+        　　<li><a href="#">Menu2</a></li>
+        　　<li><a href="#">Menu3</a></li>
+        　　<li><a href="#">Menu4</a></li>
+        　　<li><a href="#">Menu5</a></li>
+        　</ul>
+        </nav>
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="Toggle">
+        　　<span></span>
+        　　<span></span>
+        　　<span></span>
+        </div>
 
 
     </header>
+
+
+<script type="text/javascript">
+$(function() {
+　$('.Toggle').click(function() {
+　　$(this).toggleClass('active');
+
+　if ($(this).hasClass('active')) {
+　　$('.NavMenu').addClass('active');　 //クラスを付与
+　} else {
+　　$('.NavMenu').removeClass('active'); //クラスを外す
+　}
+　});
+});
+</script>
 
 <div class="top-title">
 <div class="tittle-container">
