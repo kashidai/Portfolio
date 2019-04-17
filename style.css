@@ -1,24 +1,14 @@
 
-
-
-
-
-
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width:100%;
+    width: 100%;
 }
-
-
-
 
 /* -----------------------------Top-page---------------------------------- */
 
-h1{
+h1 {
     color: #ffff;
     font-size: 40px;
     text-align: center;
@@ -26,38 +16,37 @@ h1{
 
 }
 
-
-p{
+p {
     color: #ffff;
     font-size: 15px;
-text-align: center;
+    text-align: center;
 
 }
 
-
-header img{
-    width:  40px;
+header img {
+    width: 40px;
     height: 40px;
-    cursor: pointer;
-    cursor: hand;
-    margin-top: 20px;
-    margin-left: 20px;
+    vertical-align: middle;
 }
 
-
-header{
-    top:0;
+header {
+    top: 0;
     position: fixed;
-    background-color: transparent;
     z-index: 5;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 
 }
 
 
+.hamburger {
+    width: 40px;
+    height: 40px;
+}
 
-
-
-.top-title{
+.top-title {
     background-image: url(./images/IMG_5842-2-2.jpg);
     background-size: cover;
     background-position: center center;
@@ -66,21 +55,19 @@ header{
 
 }
 
-
-
-.tittle-container{
+.tittle-container {
     position: absolute;
     left: 50%;
-    top:50%;
-    transform: translate(-50% , -50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.except-tittle{
-padding-top: 60px;
-padding-bottom: 100px;
+.except-tittle {
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     color: #ffff;
     display: inline-block;
@@ -104,72 +91,67 @@ h2:before {
     -ms-transform: translateX(-50%);
     transform: translate(-50%); /*位置調整*/
     background-color: #666666; /*下線の色*/
-  }
+}
 
-.work{
+.work {
 
     background-color: #ffff;
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
 }
 
-.work h2{
+.work h2 {
     color: black;
 
 }
 
-.work p{
+.work p {
     color: black;
 
 }
 
-.all-work img{
-    width:100%;
+.all-work img {
+    width: 100%;
     vertical-align: middle;
     margin-bottom: 50px
 }
 
-
-.about{
+.about {
 
     background-color: #f5f5fa;
     text-align: center;
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px;
 }
 
-.about h2{
+.about h2 {
     color: black;
 }
 
-.about p{
+.about p {
     color: black;
 }
 
-
-
-.detail{
+.detail {
     width: 80%;
     word-wrap: break-word;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom:100px;
+    padding-bottom: 100px;
     text-align: left;
 }
 
-
-
-.about img{
-object-fit: contain;
-width:100%;
+.about img {
+    object-fit: contain;
+    width: 100%;
 
 }
 
-.contact{
+.contact {
     background-color: #ffff;
     text-align: center;
 }
@@ -182,17 +164,16 @@ width:100%;
     color: black;
 }
 
-.contact-botton{
+.contact-botton {
     width: 70%;
-    font-size:15px;
-padding-bottom: 60px;
+    font-size: 15px;
+    padding-bottom: 60px;
     margin: 0 auto;
     text-align: center;
 
-
 }
 
-.contact-sentence{
+.contact-sentence {
     padding-bottom: 60px;
     text-align: left;
 }
@@ -213,130 +194,119 @@ padding-bottom: 60px;
     font-size: 18px;
     -webkit-transition: 0.8s;
     transition: 0.8s;
-    text-decoration:none;
+    text-decoration: none;
 
 }
 
 .send:hover {
     cursor: pointer;
-      text-decoration: none;
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
-      background-color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    background-color: #fff;
 }
 
-footer{
+footer {
     background-color: black;
     padding: 30px 0;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.items{
-text-align: center;
+.items {
+    text-align: center;
 
 }
 
-.sns-item{
+.sns-item {
     font-size: 25px;
     color: #ffff;
 
 }
 
-.Copyright{
+.Copyright {
     font-size: 10px;
     padding-top: 30px;
 }
 
-
-@media (min-width : 768px){
-    h1{
+@media (min-width: 768px) {
+    h1 {
         font-size: 55px;
     }
 
-    p{
-        font-size:20px;
+    p {
+        font-size: 20px;
     }
 
-    h2{
+    h2 {
         font-size: 35px;
     }
 
-    header img{
-        width:  60px;
+    header img {
+        width: 60px;
         height: 60px;
-        margin-top: 40px;
-        margin-left: 40px;
+        /* margin-top: 40px; */
+        /* margin-left: 40px; */
     }
 
-    .work{
+    .work {
         padding-left: 60px;
-        padding-right:60px;
+        padding-right: 60px;
 
     }
 
-
-
-    .about-ipad{
+    .about-ipad {
         display: flex;
-        flex: wrap;
+
         align-items: stretch;
         justify-content: center;
         padding-bottom: 100px;
 
     }
 
-    .about{
+    .about {
         padding-left: 3em;
         padding-right: 3em;
-}
-    .detail{
-        width:50%;
+    }
+
+    .detail {
+        width: 50%;
         padding: 0;
         margin-left: 30px;
 
     }
 
-
     .About-image {
         margin-right: 30px;
     }
 
-    .sns-item{
+    .sns-item {
         font-size: 40px;
 
     }
 
-    .Copyright{
+    .Copyright {
         font-size: 15px;
 
     }
 
-
-ul{
-justify-content: center;
-}
-
-
+    ul {
+        justify-content: center;
+    }
 
 }
-
-
-
-
-
 
 /* ----------------------------------work1 ---------------------------------*/
 
-.work-top{
+.work-top {
 
     background-image: url(./images/photo-1548174753-897b449b097e.jpg);
     background-size: cover;
@@ -346,123 +316,122 @@ justify-content: center;
     box-sizing: border-box;
 }
 
-.work-tittle{
+.work-tittle {
     position: absolute;
     left: 50%;
-    top:50%;
-    transform: translate(-50% , -50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.summary{
+.summary {
     background-color: #ffff;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
 }
 
-.summary p{
-text-align: left;
-color: black;
+.summary p {
+    text-align: left;
+    color: black;
 
 }
 
-.summary h2{
-color: black;
+.summary h2 {
+    color: black;
 
 }
 
-.work-img{
+.work-img {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
-.work-img img{
+.work-img img {
     margin-bottom: 50px;
 }
 
+nav.NavMenu {
+    position: fixed; /*表示位置を固定*/
+    z-index: 2; /*重ね順を変更*/
+    top: 0; /*表示位置を指定*/
+    left: 0; /*表示位置を指定*/
+    background: transparent; /*背景を透明にする*/
+    color: #000; /*文字色を黒にする*/
+    text-align: center; /*テキストを中央揃え*/
+    width: 100%; /*全幅表示*/
+    transform: translateY(-100%); /*ナビを上に隠す*/
+    transition: all 0.6s; /*アニメーションの時間を指定*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav.NavMenu{
-　position: fixed; /*表示位置を固定*/
-　z-index: 2; /*重ね順を変更*/
-　top: 0; /*表示位置を指定*/
-　left: 0; /*表示位置を指定*/
-　background: #fff;/*背景を白にする*/
-　color: #000; /*文字色を黒にする*/
-　text-align: center; /*テキストを中央揃え*/
-　width: 100%; /*全幅表示*/
-　transform: translateY(-100%); /*ナビを上に隠す*/
-　transition: all 0.6s; /*アニメーションの時間を指定*/
 }
 
-nav.NavMenu ul{
-　background: #ccc; /*背景をグレーにする*/
-　width: 100%;
-　margin: 0 auto;
-　padding: 0;
+.open.NavMenu {
+    top:60px;
+
 }
 
-nav.NavMenu ul li{
-　font-size: 1.1em;
-　list-style-type: none;
-　padding: 0;
-　width: 100%;
-　border-bottom: 1px dotted #333;
+nav.NavMenu ul {
+    background: #ccc; /*背景をグレーにする*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.6);
+
+
 }
 
-nav.NavMenu ul li:last-child{
-　padding-bottom: 0;
-　border-bottom: none; /*最後のメニュー項目のみ下線を消す*/
+nav.NavMenu ul li {
+    font-size: 1.1em;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+
+
 }
 
-nav.NavMenu ul li a{
-　display: block; /*クリックできる領域を広げる*/
-　color: #000;
-　padding: 1em 0;
+nav.NavMenu ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: none; /*最後のメニュー項目のみ下線を消す*/
 }
 
-nav.NavMenu.active{
-　transform: translateY(0%);
+nav.NavMenu ul li a {
+    display: block; /*クリックできる領域を広げる*/
+    color: #ffffff;
+    padding: 1em 0;
+    text-decoration: none;
 }
 
+nav.NavMenu.active {
+    transform: translateY(0%);
+}
 
 /*トグルボタンのスタイルを指定*/
 .Toggle {
-    display: block;
-    position: fixed;    /* bodyに対しての絶対位置指定 */
-    right: 13px;
-    top: 12px;
-    width: 42px;
-    height: 42px;
+    /* display: inline-block; */
+    position: relative;
+    /* right: 13px; */
+    /* top: 12px; */
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     z-index: 3;
+    /* text-align: right; */
 }
+
+
 
 .Toggle span {
     display: block;
     position: absolute;
     width: 30px;
-    border-bottom: solid 3px #000;
-    -webkit-transition: .35s ease-in-out;	/*変化の速度を指定*/
-    -moz-transition: .35s ease-in-out;		/*変化の速度を指定*/
-    transition: .35s ease-in-out;			/*変化の速度を指定*/
+    border-bottom: solid 5px #ff8c00;
+    -webkit-transition: .35s ease-in-out; /*変化の速度を指定*/
+    -moz-transition: .35s ease-in-out; /*変化の速度を指定*/
+    transition: .35s ease-in-out; /*変化の速度を指定*/
     left: 6px;
 }
 
@@ -494,4 +463,44 @@ nav.NavMenu.active{
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+
+.header-box{
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) {
+
+        .Toggle{
+            width:60px;
+            height:60px;
+        }
+
+    .hamburger {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Toggle span {
+        width: 60px;
+        border-bottom: solid 6px #ff8c00;
+        left: 6px;
+    }
+
+
+    .Toggle span:nth-child(2) {
+        top: 23px;
+    }
+
+    .Toggle span:nth-child(3) {
+        top: 37px;
+    }
+
+
 }
