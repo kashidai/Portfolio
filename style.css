@@ -8,9 +8,21 @@
 
 /* -----------------------------Top-page---------------------------------- */
 
+.Work-A h3{
+    display: none;
+}
+
+.Work-B h3{
+    display: none;
+}
+
+
+
+
+
 h1 {
     color: #ffff;
-    font-size: 40px;
+    font-size: 41px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 
@@ -23,8 +35,19 @@ p {
 
 }
 
+.top-title p{
+    padding-top: 20px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
 .logo-link {
-    width:40px;
+    width: 40px;
 }
 
 header img {
@@ -41,9 +64,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
 
-
 }
-
 
 .hamburger {
     width: 40px;
@@ -102,6 +123,7 @@ h2:before {
     background-color: #ffff;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -151,7 +173,7 @@ h2:before {
 
 .about img {
     object-fit: contain;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -250,8 +272,8 @@ li {
         font-size: 20px;
     }
 
-    .logo-link{
-        width:60px;
+    .logo-link {
+        width: 60px;
     }
 
     h2 {
@@ -286,14 +308,13 @@ li {
     }
 
     .detail {
-        width: 50%;
+        width: 100%;
         padding: 0;
-        margin-left: 30px;
 
     }
 
     .About-image {
-        margin-right: 30px;
+
     }
 
     .sns-item {
@@ -312,14 +333,39 @@ li {
 
 }
 
+@media (min-width: 769px) {
 
+    .Work-A {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .Work-A h3 {
+        display: inline;
+        color: red;
 
-
-@media (min-width: 769px){
-    {
 
     }
+
+    .Work-B {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Work-B h3 {
+        display: inline;
+        color: red;
+
+    }
+
+    .all-work img{
+        margin-bottom: 0;
+    }
+
+
+
 }
 
 /* ----------------------------------work1 ---------------------------------*/
@@ -370,9 +416,6 @@ li {
     margin-bottom: 50px;
 }
 
-
-
-
 /*------------------------------------------Hamburger Menu-------------------------------------------------*/
 
 nav.NavMenu {
@@ -381,7 +424,7 @@ nav.NavMenu {
     top: 0; /*表示位置を指定*/
     left: 0; /*表示位置を指定*/
     background: transparent; /*背景を透明にする*/
-    color: #000; /*文字色を黒にする*/
+    color: #000; /*文字色を白にする*/
     text-align: center; /*テキストを中央揃え*/
     width: 100%; /*全幅表示*/
     transform: translateY(-100%); /*ナビを上に隠す*/
@@ -390,7 +433,7 @@ nav.NavMenu {
 }
 
 .open.NavMenu {
-    top:60px;
+    top: 60px;
 
 }
 
@@ -402,8 +445,7 @@ nav.NavMenu ul {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,0,0,0.6);
-
+    background-color: rgba(0, 0, 0, 0.9);
 
 }
 
@@ -412,7 +454,6 @@ nav.NavMenu ul li {
     list-style-type: none;
     padding: 0;
     width: 100%;
-
 
 }
 
@@ -444,8 +485,6 @@ nav.NavMenu.active {
     z-index: 3;
     /* text-align: right; */
 }
-
-
 
 .Toggle span {
     display: block;
@@ -488,8 +527,7 @@ nav.NavMenu.active {
     transform: rotate(45deg);
 }
 
-
-.header-box{
+.header-box {
     /* position: relative; */
     display: flex;
     flex-direction: row;
@@ -497,13 +535,12 @@ nav.NavMenu.active {
     align-items: center;
 }
 
-
 @media (min-width: 768px) {
 
-        .Toggle{
-            width:60px;
-            height:60px;
-        }
+    .Toggle {
+        width: 60px;
+        height: 60px;
+    }
 
     .hamburger {
         width: 60px;
@@ -516,7 +553,6 @@ nav.NavMenu.active {
         left: 6px;
     }
 
-
     .Toggle span:nth-child(2) {
         top: 23px;
     }
@@ -524,6 +560,5 @@ nav.NavMenu.active {
     .Toggle span:nth-child(3) {
         top: 37px;
     }
-
 
 }
