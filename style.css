@@ -84,6 +84,10 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.tittle-container p{
+    color: #ffffff;
+}
+
 .except-tittle {
     padding-top: 60px;
     padding-bottom: 100px;
@@ -91,7 +95,7 @@ header {
 
 h2 {
     font-size: 30px;
-    color: #ffff;
+    color: black;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -115,7 +119,7 @@ h2:before {
     background-color: #666666; /*下線の色*/
 }
 
-.work {
+#work {
 
     background-color: #ffff;
     padding-left: 20px;
@@ -127,12 +131,12 @@ h2:before {
 
 }
 
-.work h2 {
+#work h2 {
     color: black;
 
 }
 
-.work p {
+#work p {
     color: black;
 
 }
@@ -143,7 +147,7 @@ h2:before {
     margin-bottom: 50px
 }
 
-.about {
+#about {
 
     background-color: #f5f5fa;
     text-align: center;
@@ -151,11 +155,11 @@ h2:before {
     padding-right: 20px;
 }
 
-.about h2 {
+#about h2 {
     color: black;
 }
 
-.about p {
+#about p {
     color: black;
 }
 
@@ -168,22 +172,22 @@ h2:before {
     text-align: left;
 }
 
-.about img {
+#about img {
     object-fit: contain;
     width: 80%;
 
 }
 
-.contact {
+#contact {
     background-color: #ffff;
     text-align: center;
 }
 
-.contact h2 {
+#contact h2 {
     color: black;
 }
 
-.contact p {
+#contact p {
     color: black;
 }
 
@@ -199,6 +203,9 @@ h2:before {
 .contact-sentence {
     padding-bottom: 60px;
     text-align: left;
+}
+.contact-sentence p{
+    color: black;
 }
 
 .send {
@@ -284,7 +291,7 @@ li {
         /* margin-left: 40px; */
     }
 
-    .work {
+    #work {
         padding-left: 60px;
         padding-right: 60px;
 
@@ -299,7 +306,7 @@ li {
 
     }
 
-    .about {
+    #about {
         padding-left: 3em;
         padding-right: 3em;
     }

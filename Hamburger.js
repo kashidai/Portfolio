@@ -7,5 +7,15 @@ $(function () {
         } else {
             $('.NavMenu').removeClass('active'); //クラスを外す
         }
+
+        $('#nav a').on('click', function() {
+            $('#nav').toggleClass('active');
+            $(".Toggle").toggleClass('active');
+        });
+
+
     });
 });
+
+
+
