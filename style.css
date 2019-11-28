@@ -8,16 +8,13 @@
 
 /* -----------------------------Top-page---------------------------------- */
 
-.Work-A h3{
+.Work-A h3 {
     display: none;
 }
 
-.Work-B h3{
+.Work-B h3 {
     display: none;
 }
-
-
-
 
 
 h1 {
@@ -35,11 +32,11 @@ p {
 
 }
 
-.top-title p{
+.top-title p {
     padding-top: 20px;
 }
 
-h3{
+h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     text-align: center;
@@ -361,10 +358,9 @@ li {
 
     }
 
-    .all-work img{
+    .all-work img {
         margin-bottom: 0;
     }
-
 
 
 }
@@ -565,8 +561,8 @@ nav.NavMenu.active {
 
 }
 
-.disapere{
+.disapere {
     transition: all 1s ease;
-
-   opacity: 1;
+    background-color: #A3DEF1;
+    opacity: 1;
 }
