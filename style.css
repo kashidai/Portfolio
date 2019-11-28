@@ -190,7 +190,7 @@ h2:before {
 .contact-botton {
     width: 70%;
     font-size: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     margin: 0 auto;
     text-align: center;
 
@@ -363,6 +363,7 @@ li {
     }
 
 
+
 }
 
 /* ----------------------------------work1 ---------------------------------*/
@@ -412,6 +413,15 @@ li {
 .work-img img {
     margin-bottom: 50px;
 }
+
+.except-tittle{
+    padding-top: 110px;
+
+}
+
+
+
+
 
 /*------------------------------------------Hamburger Menu-------------------------------------------------*/
 
