@@ -11,7 +11,7 @@ $(function () {
 
     //Hamburger---------------
 
-    $('a[href^=#]').click(function() {
+    $('a[href^="#"]').click(function() {
         var speed = 400;
         var href= $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
@@ -20,6 +20,8 @@ $(function () {
         $('.NavMenu').removeClass('open');
         $('.NavMenu').removeClass('active');
         $(".Toggle").removeClass('active');
+
+
         return false;
     });
 });
