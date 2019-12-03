@@ -9,7 +9,7 @@
 
 /* -----------------------------Top-page---------------------------------- */
 
-a{
+a {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -20,37 +20,6 @@ a{
 .Work-B h3 {
     display: none;
 }
-
-/*.Work-A-right{*/
-/*    overflow:hidden;*/
-/*}*/
-
-/*.Work-A-right .caption {*/
-/*    font-size:		130%;*/
-/*    color:			#fff;*/
-/*}*/
-
-/*.Work-A-right .mask{*/
-/*    width:			100%;*/
-/*    height:			100%;*/
-/*    position:		absolute;*/
-/*    top:			0;*/
-/*    left:			0;*/
-/*    opacity:		0;	!* マスクを表示しない *!*/
-/*    background-color:	rgba(0,0,0,0.4);*/
-/*    -webkit-transition:	all 0.6s ease;*/
-/*    transition:		all 0.6s ease;*/
-/*}*/
-
-/*.Work-A-right:hover .mask {*/
-/*    opacity:		1;	!* マスクを表示する *!*/
-/*    padding-top:		80px;	!* ホバーで下にずらす *!*/
-/*}*/
-
-
-
-
-
 
 
 h1 {
@@ -120,7 +89,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.tittle-container p{
+.tittle-container p {
     color: #ffffff;
 }
 
@@ -173,9 +142,17 @@ h2:before {
 
 }
 
+#work h3 {
+    color: black;
+    font-size: 50px;
+
+}
+
+
 #work p {
     color: black;
-
+    margin-top: 10px;
+    font-size: 30px;
 }
 
 .all-work img {
@@ -183,6 +160,7 @@ h2:before {
     vertical-align: middle;
 
 }
+
 
 #about {
 
@@ -241,7 +219,8 @@ h2:before {
     padding-bottom: 60px;
     text-align: left;
 }
-.contact-sentence p{
+
+.contact-sentence p {
     color: black;
 }
 
@@ -373,7 +352,6 @@ li {
     }
 
 
-
 }
 
 @media (min-width: 769px) {
@@ -407,7 +385,6 @@ li {
     .all-work img {
         margin-bottom: 0;
     }
-
 
 
 }
@@ -460,13 +437,10 @@ li {
     margin-bottom: 50px;
 }
 
-.except-tittle{
+.except-tittle {
     padding-top: 110px;
 
 }
-
-
-
 
 
 /*------------------------------------------Hamburger Menu-------------------------------------------------*/
