@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad468a49-c074-4fa1-8d34-d573579efd55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screen Shot 2019-12-02 at 3.11.42 PM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hamburger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hamscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/hamscroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scroll.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,6 +52,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -101,7 +103,8 @@
       <workItem from="1574912581090" duration="11882000" />
       <workItem from="1575025809601" duration="78000" />
       <workItem from="1575027083312" duration="244000" />
-      <workItem from="1575235454392" duration="5881000" />
+      <workItem from="1575235454392" duration="6516000" />
+      <workItem from="1575448530557" duration="43000" />
     </task>
     <servers />
   </component>
