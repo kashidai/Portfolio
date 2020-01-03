@@ -10,6 +10,7 @@ $(function () {
     });
 
     //Hamburger---------------
+    //Hamburger---------------
 
     $('.hamMenu a[href^="#"]').click(function() {
         var speed = 700;
