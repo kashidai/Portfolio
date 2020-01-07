@@ -623,16 +623,15 @@ nav.NavMenu.active {
 
 
 .sample2 {
-
-
     overflow:       hidden;
-    margin:         10px 8px 10px 16px;
-    position:       relative;
+    /*margin:         10px 8px 10px 16px;*/
+    position: relative;
 }
 
 .sample2 img{
     width: 50%;
 }
+
 .sample2 .caption2 {
     font-size:      130%;
     text-align:         center;
@@ -653,3 +652,4 @@ nav.NavMenu.active {
     opacity:        1;  /* マスクを表示する */
     padding-top:        120px;   /* ホバーで下にずらす */
 }
+/*aaa*/
