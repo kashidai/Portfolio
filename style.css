@@ -356,6 +356,7 @@ li {
     }
 
 
+
 }
 
 @media (min-width: 769px) {
@@ -659,7 +660,7 @@ nav.NavMenu.active {
 }
 
 .son {
-    width: 390px;
+    width: 500px;
 
     margin: 0 auto;
     position: relative;
@@ -689,8 +690,32 @@ nav.NavMenu.active {
 }
 
 .son .caption2 {
-    font-size: 130%;
+    font-size: 300%;
     text-align: center;
     color: #fff;
 }
 
+.son p{
+    font-size: 5px;
+    color: #fff;
+}
+
+
+
+@media (min-width: 768px){
+    .son img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:200px) and ( max-width:600px) {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+    .parent{
+        height: 300px;
+    }
+
+    .son {
+       width: 300px;
+    }
+}
