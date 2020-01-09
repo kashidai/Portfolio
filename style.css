@@ -621,21 +621,20 @@ nav.NavMenu.active {
 }
 
 
-.parent {
-
-}
-
 .son {
     width: 500px;
-    margin: 0 auto;
+    height: 340px;
+    margin: auto;
     position: relative;
     overflow: hidden;
     margin-bottom: 50px;
+
 }
 
 .son img {
     max-height: 100%;
     max-width: 100%;
+    object-fit: contain;
 
 }
 
@@ -654,12 +653,14 @@ nav.NavMenu.active {
 .son:hover .mask2 {
     opacity: 1; /* マスクを表示する */
     padding-top: 120px; /* ホバーで下にずらす */
+    /*vertical-align: middle;*/
 }
 
 .son .caption2 {
     font-size: 300%;
     text-align: center;
     color: #fff;
+
 }
 
 .son p{
