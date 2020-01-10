@@ -358,7 +358,6 @@ li {
     }
 
 
-
 }
 
 @media (min-width: 769px) {
@@ -435,15 +434,16 @@ li {
 
 .work-img {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
+
 
 }
 
 .work-img img {
-    margin-bottom: 50px;
-}
+    /*margin-bottom: 50px;*/
+    width: 350px;
 
+}
 
 
 /*------------------------------------------Hamburger Menu-------------------------------------------------*/
@@ -601,9 +601,6 @@ nav.NavMenu.active {
 }
 
 
-
-
-
 /*work-motion*/
 .js-animation {
     opacity: 0;
@@ -628,7 +625,6 @@ nav.NavMenu.active {
     margin-bottom: 50px;
 
 }
-
 
 
 .son img {
@@ -663,14 +659,14 @@ nav.NavMenu.active {
 
 }
 
-.son p{
+.son p {
     font-size: 5px;
     color: #fff;
 }
 
 /*囲い線*/
 
-.son ::before{
+.son ::before {
     position: absolute;
     content: '';
     top: 0;
@@ -681,7 +677,7 @@ nav.NavMenu.active {
     border-left: none;
 }
 
-.son ::after{
+.son ::after {
     position: absolute;
     content: '';
     top: 0;
@@ -693,28 +689,26 @@ nav.NavMenu.active {
 }
 
 
-
-@media (min-width: 768px){
-    .son img{
+@media (min-width: 768px) {
+    .son img {
         max-height: 100%;
         max-width: 100%;
     }
 }
 
-@media screen and (min-width:200px) and ( max-width:600px) {
+@media screen and (min-width: 200px) and ( max-width: 600px) {
     /*　画面サイズが768pxから1024pxまではここを読み込む　*/
-    .parent{
+    .parent {
         height: 300px;
     }
 
     .son {
-       width: 250px;
+        width: 250px;
         height: 175px;
     }
 
 
-
-    .son ::before{
+    .son ::before {
         position: absolute;
         content: '';
         top: 0;
@@ -725,7 +719,7 @@ nav.NavMenu.active {
         border-left: none;
     }
 
-    .son ::after{
+    .son ::after {
         position: absolute;
         content: '';
         top: 0;
@@ -736,6 +730,13 @@ nav.NavMenu.active {
         border-right: none;
     }
 
+    .work-img {
+        flex-direction: column;
+    }
+
+    .work-img img {
+        width: 200px;
+    }
 
 
 }
