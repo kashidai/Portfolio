@@ -94,8 +94,10 @@ header {
 }
 
 .except-tittle {
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 100px;
+
+
 }
 
 h2 {
@@ -442,10 +444,6 @@ li {
     margin-bottom: 50px;
 }
 
-.except-tittle {
-    padding-top: 110px;
-
-}
 
 
 /*------------------------------------------Hamburger Menu-------------------------------------------------*/
