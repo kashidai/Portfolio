@@ -713,5 +713,32 @@ nav.NavMenu.active {
        width: 250px;
         height: 175px;
     }
+
+
+
+    .son ::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0px;
+        width: 30px;
+        height: 90%;
+        border: 5px solid #00ffff;
+        border-left: none;
+    }
+
+    .son ::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0px;
+        width: 30px;
+        height: 90%;
+        border: 5px solid #00ffff;
+        border-right: none;
+    }
+
+
+
 }
 
