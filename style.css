@@ -95,10 +95,12 @@ header {
 
 .except-tittle {
     padding-top: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 
 
 }
+
+
 
 h2 {
     font-size: 30px;
@@ -115,7 +117,7 @@ h2:before {
     content: '';
     position: absolute;
     left: 50%;
-    bottom: 90px;
+    bottom: 60px;
     display: inline-block;
     width: 50px;
     height: 3px; /*下線の太さ*/
@@ -418,7 +420,7 @@ li {
     background-color: #ffff;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .summary p {
@@ -688,6 +690,70 @@ nav.NavMenu.active {
     border-right: none;
 }
 
+/*.view-site{*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+/*.view-site a{*/
+/*    padding: 0 10px;*/
+/*    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);*/
+/*    background-position: 0 0;*/
+/*    background-size: 200% auto;*/
+/*    transition: .3s;*/
+/*    color: rgb(49, 170, 226);*/
+/*    font-size: 30px;*/
+
+/*}*/
+
+/*.view-site a:hover{*/
+/*    background-position: -100% 0;*/
+/*    color: #fff;*/
+/*}*/
+
+
+.view-sitea{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.view-sitea a{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.73);
+    padding: 0.3em 0.5em;
+    background: #00bcd4;
+    border-top: solid 3px #00a3d4;
+    border-bottom: solid 3px #00a3d4;
+    transition: .4s;
+    font-size: 30px;
+    width: 200px;
+}
+
+.view-sitea a:hover {
+    text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
+    6px 0px 15px rgba(255, 255, 240, 0.83);
+}
+
+
+.work-text{
+    margin-bottom: 50px;
+}
+
+.work-text p{
+    text-align: center;
+}
+
+
+
+
+
 
 @media (min-width: 768px) {
     .son img {
@@ -732,6 +798,7 @@ nav.NavMenu.active {
 
     .work-img {
         flex-direction: column;
+        align-items: center;
     }
 
     .work-img img {
@@ -739,5 +806,16 @@ nav.NavMenu.active {
     }
 
 
+    .view-sitea a{
+        font-size: 20px;
+        width: 150px;
+    }
+
+
+
+
 }
+
+
+
 
