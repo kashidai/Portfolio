@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ad468a49-c074-4fa1-8d34-d573579efd55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16ea348c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_5842-2-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_6143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/OYIaJ1KK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Redux図解_imac2015_front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photo-1548174753-897b449b097e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +108,7 @@
       <workItem from="1578567414961" duration="1000" />
       <workItem from="1578568383629" duration="716000" />
       <workItem from="1578569594352" duration="9000" />
-      <workItem from="1578608137111" duration="10433000" />
+      <workItem from="1578608137111" duration="11529000" />
     </task>
     <servers />
   </component>
