@@ -447,7 +447,7 @@ li {
 
 .work-img img {
     /*margin-bottom: 50px;*/
-    width: 450px;
+    width: 750px;
 
 }
 
@@ -806,7 +806,7 @@ nav.NavMenu.active {
     }
 
     .work-img img {
-        width: 200px;
+        width: 350px;
     }
 
 
