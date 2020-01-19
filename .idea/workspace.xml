@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad468a49-c074-4fa1-8d34-d573579efd55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/moving-imacc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/moving-mock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/moving-mock2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Screen Shot 2019-12-02 at 3.11.42 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Screen Shot 2020-01-18 at 11.35.31 PM_imac2015_front.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/work1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +108,7 @@
       <workItem from="1578567414961" duration="1000" />
       <workItem from="1578568383629" duration="716000" />
       <workItem from="1578569594352" duration="9000" />
-      <workItem from="1578608137111" duration="17216000" />
+      <workItem from="1578608137111" duration="17536000" />
     </task>
     <servers />
   </component>
